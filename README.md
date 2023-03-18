@@ -1,4 +1,4 @@
-# Fashion-Items-Image-Classification-With-One-Hidden-Layer-Using-Parallel-API
+### Fashion-Items-Image-Classification-With-One-Hidden-Layer-Using-Parallel-API
 
 Build feedforward neural network with 3 layer: input layer, one hidden layer và output layer
 Dataset: Fashion-MNIST https://www.kaggle.com/datasets/zalando-research/fashionmnist
@@ -12,7 +12,8 @@ Run program with 100 epochs
 Program executes in 4 threads:
       Time: 2962,47s
       
-Ma trận lỗi cho mẫu dữ liệu huấn luyện:
+Confustion matrix for training dataset:
+
 5563.00 21.00	   76.00	 115.00	 24.00	 0.00	   542.00	 1.00	   35.00	 2.00
 6.00	  5830.00  6.00	   27.00	 8.00	   0.00	   13.00	 0.00	   7.00	   1.00
 43.00	  9.00	   5265.00 18.00	 289.00	 1.00	   289.00	 0.00	   38.00	 1.00
@@ -24,7 +25,8 @@ Ma trận lỗi cho mẫu dữ liệu huấn luyện:
 31.00	  5.00	   17.00	 14.00	 17.00	 17.00	 38.00	 12.00	 5765.00 3.00
 5.00	  0.00	   0.00	   2.00	   0.00	   42.00	 1.00	   140.00	 8.00	   5862.00
 
-Ma trận lỗi cho mẫu dữ liệu kiểm tra:
+COnfusion matrix for testing dataset:
+
 836.00 7.00	  14.00	 39.00	3.00	  1.00	 181.00	0.00	  6.00	  1.00
 0.00	 969.00	1.00	 10.00	0.00	  0.00	 5.00	  0.00	  0.00	  0.00
 12.00	 3.00	  783.00 11.00	75.00	  1.00	 87.00	0.00	  10.00	  0.00
@@ -40,5 +42,6 @@ Accuracy score on training dataset: 92.7%
 Accuracy score on testing dataset: 86%
 Overall accuracy score: 91.8%
 
+I program in C language because normally C is faster more than 10 times than Python
 
-For more detail about algorithm read file report.pdf
+For more detail about dataset and algorithm read file report.pdf
