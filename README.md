@@ -1,5 +1,5 @@
 ### Fashion-Items-Image-Classification-With-One-Hidden-Layer-Using-Parallel-API
-'''
+```
 Build feedforward neural network with 3 layer: input layer, one hidden layer và output layer
 Dataset: Fashion-MNIST https://www.kaggle.com/datasets/zalando-research/fashionmnist 
 Activation function: logistic       
@@ -7,7 +7,7 @@ Loss function: MSE
 Learning rate: 0.05 
 Parallel API: OpenMP 
 Programming language: C 
-'''
+```
 
 Run program with 100 epochs <br />
 Program executes in 4 threads: <br />
